@@ -8,7 +8,10 @@ import re
 import shutil
 
 REPO_NAME = "press-stripe-local"
-BASE = f"/{REPO_NAME}"          # GitHub Pages root: /press-stripe-local
+GH_USER  = "fluttervs"
+# Full absolute base — required because the whitelist code does new URL(r)
+# on every dynamic import string; a root-relative path throws TypeError there.
+BASE = f"https://{GH_USER}.github.io/{REPO_NAME}"
 
 DOMAINS = [
     "b.stripecdn.com",
