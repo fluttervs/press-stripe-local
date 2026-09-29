@@ -1,0 +1,1 @@
+import{b as n,e as c}from"./v1-chunk-DCPO7735.js";import{f as i,j as t}from"./v1-chunk-KWARAS4N.js";var l=i(a=>{c();t(a,null,function*(){if(yield new n().areCategoriesAllowed("advertising","functional")){let e=document.body,o=document.getElementById("source-attribution-loader");e&&o&&e.appendChild(o.content.cloneNode(!0))}})});export default l();

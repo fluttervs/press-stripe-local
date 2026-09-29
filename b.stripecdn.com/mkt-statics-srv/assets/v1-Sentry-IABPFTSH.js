@@ -1,0 +1,1 @@
+import{j as t}from"./v1-chunk-KWARAS4N.js";function e(){return t(this,null,function*(){let{Sentry:n}=yield import("./v1-SentryInstance-XEYVPMR5.js");window.__capturedErrors.forEach(o=>{n.captureException(o)})})}document.readyState==="complete"?e():window.addEventListener("load",e);

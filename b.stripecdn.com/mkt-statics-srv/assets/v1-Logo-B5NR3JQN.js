@@ -1,0 +1,1 @@
+import"./v1-chunk-QAMXPDSP.js";import{b as r,c as a}from"./v1-chunk-TKEHEMW6.js";import"./v1-chunk-KWARAS4N.js";var e=class extends r{constructor(){super(...arguments);this.interactable=!1;this.connect=()=>{};this.animate=()=>{}}};a.register("PressLogo",e);export{e as Logo};

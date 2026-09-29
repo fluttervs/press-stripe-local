@@ -1,0 +1,1 @@
+.PressHomepageCanvas__container{position:fixed;top:0;left:0;width:100%;height:var(--screenHeight);display:flex;justify-content:center;z-index:1;pointer-events:none}.PressHomepageCanvas{position:relative;width:70vw;max-width:2200px;height:var(--screenHeight);transition:opacity .5s;opacity:0}.PressHomepage--isInitialized .PressHomepageCanvas{opacity:1}
